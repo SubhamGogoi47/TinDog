@@ -1,2 +1,1 @@
-# TinDog
-Just Frontend Practice.
+TinDog Starting Files

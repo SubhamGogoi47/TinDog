@@ -1,0 +1,166 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+h2, h3{
+  font-family: Montserrat-bold;
+}
+p {
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections Colouring */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-item {
+  font-family: Montserrat-light;
+  font-size: 1.2rem;
+
+}
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.big-heading {
+  font-family: Montserrat-black;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* Title Image */
+@media (min-width:993px) {
+  .title-image {
+    width: 24%;
+    transform: rotate(25deg);
+    position: absolute;
+  }
+}
+
+
+/* Feature Section Images */
+#features {
+  position: relative;
+}
+.feature-h3 {
+  font-size: 1.5rem;
+}
+.check {
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.bullseye {
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.heart {
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+/* Hover in feature section*/
+.check:hover {
+  color: #ff4c68;
+}
+.bullseye:hover {
+  color: #ff4c68;
+}
+.heart:hover {
+  color: #ff4c68;
+}
+/* Features Div */
+.features-div {
+  line-height: 2;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+.carousel-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+.pricing-h3 {
+  font-size: 1.5rem;
+}
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.card-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Media Query Section */
+@media (max-width: 993px){
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to Action Section CTA*/
+
+
+/* Footer Section */
+#footer {
+  padding: 3% 15%;
+}
+.footer-image {
+  margin: 1% 1%;
+}
